@@ -22,7 +22,7 @@ client.on("message", message => {
 
  //online broadcast
 
- var prefix = "1";
+ var prefix = "2";
 
   client.on("message", message => {
   
