@@ -19,7 +19,7 @@ client.on("message", message => {
   
   
   client.on('message', message => {
-   if (message.content.startsWith("$bc")) {
+   if (message.content.startsWith("2bc")) {
       message.delete(1000);
       message.channel.send(message.content.slice(5, message.content.length));
    }
