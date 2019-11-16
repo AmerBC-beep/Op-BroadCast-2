@@ -1,11 +1,11 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "$"
-var adminprefix = '$'
+var prefix = "2"
+var adminprefix = '2'
 
 
 client.on("message", message => {
-    if (message.content.startsWith("$bc")) {
+    if (message.content.startsWith("2bc")) {
                  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
   var argresult = args.join(' ');
